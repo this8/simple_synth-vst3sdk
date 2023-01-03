@@ -6,6 +6,10 @@
 #include "musynthcids.h"
 #include "vstgui/plugin-bindings/vst3editor.h"
 
+#include "params.h"
+#include "pluginterfaces/base/ibstream.h"
+#include "base/source/fstreamer.h"
+
 using namespace Steinberg;
 
 namespace Musiola {
@@ -25,6 +29,9 @@ tresult PLUGIN_API MusynthController::initialize (FUnknown* context)
 	}
 
 	// Here you could register some parameters
+    setKnobMode(Vst::kLinearMode);
+    parameters.addParameter(STR16("OSC1"), nullptr, 0, default_Osc1, Vst::ParameterInfo::kCanAutomate, mOsc1);
+    parameters.addParameter(STR16("OSC2"), nullptr, 0, default_Osc2, Vst::ParameterInfo::kCanAutomate, mOsc2);
 
 	return result;
 }
@@ -45,6 +52,18 @@ tresult PLUGIN_API MusynthController::setComponentState (IBStream* state)
 	if (!state)
 		return kResultFalse;
 
+    IBStreamer streamer(state, kLittleEndian);
+    
+    float fval;
+    if (streamer.readFloat(fval) == false) {
+        return kResultFalse;
+    }
+    setParamNormalized(mOsc1, fval);
+    if (streamer.readFloat(fval) == false) {
+        return kResultFalse;
+    }
+    setParamNormalized(mOsc2, fval);
+    
 	return kResultOk;
 }
 
