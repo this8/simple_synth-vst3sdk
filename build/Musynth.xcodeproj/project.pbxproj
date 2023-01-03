@@ -1268,6 +1268,7 @@
 		B7AA01BC6F18468C8DDAC3EC /* checkboxcreator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = checkboxcreator.cpp; path = /Users/thisura/Xcode/vst3sdk/vstgui4/vstgui/uidescription/viewcreator/checkboxcreator.cpp; sourceTree = "<absolute>"; };
 		B8B2BF3BB02D409B82F36DB4 /* uicolorscontroller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uicolorscontroller.cpp; path = /Users/thisura/Xcode/vst3sdk/vstgui4/vstgui/uidescription/editing/uicolorscontroller.cpp; sourceTree = "<absolute>"; };
 		B8E61C932E264AC1BC07C0A9 /* dispatchlist.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dispatchlist.h; path = /Users/thisura/Xcode/vst3sdk/vstgui4/vstgui/lib/dispatchlist.h; sourceTree = "<absolute>"; };
+		B94E8C3C296495EA0030E638 /* params.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = params.h; path = source/params.h; sourceTree = "<group>"; };
 		B974B8DE1BBA46F7B17FBFA6 /* mactimer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mactimer.h; path = /Users/thisura/Xcode/vst3sdk/vstgui4/vstgui/lib/platform/mac/mactimer.h; sourceTree = "<absolute>"; };
 		B98A02A5FA4649C6BA615BAF /* csearchtextedit.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = csearchtextedit.h; path = /Users/thisura/Xcode/vst3sdk/vstgui4/vstgui/lib/controls/csearchtextedit.h; sourceTree = "<absolute>"; };
 		BA0984F40B2D4F80B5E75AFE /* suspendresume.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = suspendresume.cpp; path = /Users/thisura/Xcode/vst3sdk/public.sdk/source/vst/testsuite/general/suspendresume.cpp; sourceTree = "<absolute>"; };
@@ -1951,6 +1952,7 @@
 				D4BD38D5D7834AE192192F18 /* musynthcontroller.h */,
 				BC30AEFE105244AFBD83FD0E /* musynthprocessor.h */,
 				1D08D0488038417EA461FA50 /* version.h */,
+				B94E8C3C296495EA0030E638 /* params.h */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
