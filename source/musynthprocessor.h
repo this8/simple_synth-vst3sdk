@@ -5,6 +5,7 @@
 #pragma once
 
 #include "public.sdk/source/vst/vstaudioeffect.h"
+#include "params.h"
 
 namespace Musiola {
 
@@ -50,8 +51,16 @@ public:
 
 //------------------------------------------------------------------------
 protected:
+    float fOsc1 = default_Osc1;
+    float fOsc2 = default_Osc2;
+    float fOsc1Phase = 0.f;
+    float fOsc2Phase = 0.f;
+    float fFrequency = 0.f;
+    float fVolume = 0.f;
+    float fDeltaAngle = 0.f;
 
 };
 
+#define PI2 (3.14159265f * 2.f)
 //------------------------------------------------------------------------
 } // namespace Musiola
