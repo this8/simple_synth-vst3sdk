@@ -1,0 +1,43 @@
+Target dependency graph (12 targets)
+ZERO_CHECK in Musynth, no dependencies
+vstgui in Musynth, no dependencies
+vstgui_uidescription in Musynth, depends on:
+vstgui in Musynth (explicit)
+base in Musynth, no dependencies
+vstgui_support in Musynth, depends on:
+vstgui in Musynth (explicit)
+vstgui_uidescription in Musynth (explicit)
+base in Musynth (explicit)
+pluginterfaces in Musynth, no dependencies
+sdk_common in Musynth, depends on:
+pluginterfaces in Musynth (explicit)
+base in Musynth (explicit)
+sdk in Musynth, depends on:
+pluginterfaces in Musynth (explicit)
+base in Musynth (explicit)
+sdk_common in Musynth (explicit)
+sdk_hosting in Musynth, depends on:
+pluginterfaces in Musynth (explicit)
+base in Musynth (explicit)
+sdk_common in Musynth (explicit)
+validator in Musynth, depends on:
+pluginterfaces in Musynth (explicit)
+base in Musynth (explicit)
+sdk_common in Musynth (explicit)
+sdk_hosting in Musynth (explicit)
+moduleinfotool in Musynth, depends on:
+pluginterfaces in Musynth (explicit)
+base in Musynth (explicit)
+sdk_common in Musynth (explicit)
+sdk_hosting in Musynth (explicit)
+Musynth in Musynth, depends on:
+ZERO_CHECK in Musynth (explicit)
+vstgui_support in Musynth (explicit)
+vstgui in Musynth (explicit)
+vstgui_uidescription in Musynth (explicit)
+pluginterfaces in Musynth (explicit)
+base in Musynth (explicit)
+sdk_common in Musynth (explicit)
+sdk in Musynth (explicit)
+validator in Musynth (explicit)
+moduleinfotool in Musynth (explicit)

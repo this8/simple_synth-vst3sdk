@@ -1,0 +1,106 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "a45ced19981ce49cf8dfaf49e2c9f5bd33877dc8b1031ec8bee9564a02c88358"
+    },
+    {
+      "guid" : "a45ced19981ce49cf8dfaf49e2c9f5bdc6923f0d2267d03c73eb0ef2772b0ca0"
+    },
+    {
+      "guid" : "a45ced19981ce49cf8dfaf49e2c9f5bd45c73e7d3d287d5e9ea60470786c2898"
+    },
+    {
+      "guid" : "a45ced19981ce49cf8dfaf49e2c9f5bdd06ebebf62d3d4dec244a6c244b51562"
+    },
+    {
+      "guid" : "a45ced19981ce49cf8dfaf49e2c9f5bdc7216088db4f93e26fbd213b4c70c21e"
+    },
+    {
+      "guid" : "a45ced19981ce49cf8dfaf49e2c9f5bd53e346ccdaf68e72bd6e05276c87e6cd"
+    },
+    {
+      "guid" : "a45ced19981ce49cf8dfaf49e2c9f5bdfdb0c722dfe4ff6dfde41c853545819c"
+    },
+    {
+      "guid" : "a45ced19981ce49cf8dfaf49e2c9f5bd367388dafefb76d45e8cf49e60862228"
+    },
+    {
+      "guid" : "a45ced19981ce49cf8dfaf49e2c9f5bde8698a381e711dede1f8a78bc3d195f9"
+    },
+    {
+      "guid" : "a45ced19981ce49cf8dfaf49e2c9f5bdcf14fc0e36f3cd3065aafbfc1a691e02"
+    },
+    {
+      "guid" : "a45ced19981ce49cf8dfaf49e2c9f5bd66678b81e7c3098353ba053c8782395d"
+    },
+    {
+      "guid" : "a45ced19981ce49cf8dfaf49e2c9f5bd9b46c4c4dfe7f1730f277e50601a2c87"
+    },
+    {
+      "guid" : "a45ced19981ce49cf8dfaf49e2c9f5bdff3c3fb2a912ba0f67ae9aa8cd1b9ef3"
+    },
+    {
+      "guid" : "a45ced19981ce49cf8dfaf49e2c9f5bd913452a2d09ff3d40ea73493ee2655f9"
+    },
+    {
+      "guid" : "a45ced19981ce49cf8dfaf49e2c9f5bdbf556a60b64a1e78ebe2b1786e54730b"
+    },
+    {
+      "guid" : "a45ced19981ce49cf8dfaf49e2c9f5bd75afb6aad8ea9012903941ea36bbdcb3"
+    },
+    {
+      "guid" : "a45ced19981ce49cf8dfaf49e2c9f5bd4a5888306292b09e10fe13628869a24e"
+    }
+  ],
+  "containerPath" : "/Users/thisura/Developer/Practice/xcode/Musynth/build/Musynth.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.1",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/thisura/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/thisura/Library/Developer/Xcode/DerivedData/Musynth-gggbflqztfvoobgjomiwgyjbqpah/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/thisura/Library/Developer/Xcode/DerivedData/Musynth-gggbflqztfvoobgjomiwgyjbqpah/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

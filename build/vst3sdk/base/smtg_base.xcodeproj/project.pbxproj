@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1E6B0A49DDA14EB0A6A4B355 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E10C1FC69BA14C7F991BE818 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				5555313491AB676125ECB9FC /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				8D2D24E6EA4C453DBE1775E8 /* PBXTargetDependency */,
+				D7D644C594A34ADCBE9A1C4E /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		4B5FB17AEE254B5488E03E38 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F4D4DE17863A47BEA487B695 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				391C88FA830D5733878452AB /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		159CDE2C263140F8A0C14E4A /* /Users/thisura/Xcode/vst3sdk/base/source/updatehandler.cpp */ = {isa = PBXBuildFile; fileRef = B6A9F33F622F4974A1A468CF /* /Users/thisura/Xcode/vst3sdk/base/source/updatehandler.cpp */; };
+		1A805C7CDBF7482D806A8AF3 /* /Users/thisura/Xcode/vst3sdk/base/thread/include/flock.h */ = {isa = PBXBuildFile; fileRef = 557EA664A47C4C12848F5217 /* /Users/thisura/Xcode/vst3sdk/base/thread/include/flock.h */; };
+		1B6BC3FFA225420AB060D07F /* /Users/thisura/Xcode/vst3sdk/base/thread/source/fcondition.cpp */ = {isa = PBXBuildFile; fileRef = 8C852C80CFA4446A8AD3742E /* /Users/thisura/Xcode/vst3sdk/base/thread/source/fcondition.cpp */; };
+		1D7B02F583F04315B6740A05 /* /Users/thisura/Xcode/vst3sdk/base/source/classfactoryhelpers.h */ = {isa = PBXBuildFile; fileRef = 25632A4628804FA3957B5285 /* /Users/thisura/Xcode/vst3sdk/base/source/classfactoryhelpers.h */; };
+		2C271E6090444AF2BD0E83B5 /* /Users/thisura/Xcode/vst3sdk/base/source/timer.h */ = {isa = PBXBuildFile; fileRef = AC43CD3265664B3497A0A1B6 /* /Users/thisura/Xcode/vst3sdk/base/source/timer.h */; };
+		32B646BE4E19433CADA1020B /* /Users/thisura/Xcode/vst3sdk/base/thread/source/flock.cpp */ = {isa = PBXBuildFile; fileRef = E4DDF5B4337143A890805320 /* /Users/thisura/Xcode/vst3sdk/base/thread/source/flock.cpp */; };
+		3462FE2DEE364037BC7B05ED /* /Users/thisura/Xcode/vst3sdk/base/source/fdebug.cpp */ = {isa = PBXBuildFile; fileRef = 257BE9F1C1934582A48CEF03 /* /Users/thisura/Xcode/vst3sdk/base/source/fdebug.cpp */; };
+		3CB08367A5AB488394EBC958 /* /Users/thisura/Xcode/vst3sdk/base/source/fdebug.h */ = {isa = PBXBuildFile; fileRef = 75ED1AE0B51E4FD784EB4B74 /* /Users/thisura/Xcode/vst3sdk/base/source/fdebug.h */; };
+		58A1F654652A4B8F8772F226 /* /Users/thisura/Xcode/vst3sdk/base/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 17CB9415C83548B287F9B6ED /* /Users/thisura/Xcode/vst3sdk/base/CMakeLists.txt */; };
+		697D8CCDE4304DB094B474EC /* /Users/thisura/Xcode/vst3sdk/base/source/fobject.cpp */ = {isa = PBXBuildFile; fileRef = 87F17BCD85CA4819AA565B32 /* /Users/thisura/Xcode/vst3sdk/base/source/fobject.cpp */; };
+		779070C5D87F4A1FA459BB41 /* /Users/thisura/Xcode/vst3sdk/base/source/fobject.h */ = {isa = PBXBuildFile; fileRef = AF235F47AF464169AFBBBB11 /* /Users/thisura/Xcode/vst3sdk/base/source/fobject.h */; };
+		79BABE1D291B45CB98DE8326 /* /Users/thisura/Xcode/vst3sdk/base/source/timer.cpp */ = {isa = PBXBuildFile; fileRef = 53BCA1B9EE9E4E70BA54997C /* /Users/thisura/Xcode/vst3sdk/base/source/timer.cpp */; };
+		86FD0BFDC33C483B9840BEF8 /* /Users/thisura/Xcode/vst3sdk/base/source/baseiids.cpp */ = {isa = PBXBuildFile; fileRef = 460EF7C58A5144CD9712CF87 /* /Users/thisura/Xcode/vst3sdk/base/source/baseiids.cpp */; };
+		8C5774A462B346A8AED5AD54 /* /Users/thisura/Xcode/vst3sdk/base/source/fstring.cpp */ = {isa = PBXBuildFile; fileRef = C7CD1A32832A426DBBB382D8 /* /Users/thisura/Xcode/vst3sdk/base/source/fstring.cpp */; };
+		983E66EDE6FC4A51B379D025 /* /Users/thisura/Xcode/vst3sdk/base/source/fstreamer.cpp */ = {isa = PBXBuildFile; fileRef = 8B79D1CFBBA64144905069B1 /* /Users/thisura/Xcode/vst3sdk/base/source/fstreamer.cpp */; };
+		98A38CBC954D470DA98C08A9 /* /Users/thisura/Xcode/vst3sdk/base/source/fdynlib.h */ = {isa = PBXBuildFile; fileRef = B2CC72B8555D47F6910EF633 /* /Users/thisura/Xcode/vst3sdk/base/source/fdynlib.h */; };
+		9F7FAED067A34A9B8049601F /* /Users/thisura/Xcode/vst3sdk/base/source/fcleanup.h */ = {isa = PBXBuildFile; fileRef = 7C1B7D8D3B7143B19B0C62B7 /* /Users/thisura/Xcode/vst3sdk/base/source/fcleanup.h */; };
+		B14FFEDA23474646B390BD15 /* /Users/thisura/Xcode/vst3sdk/base/source/updatehandler.h */ = {isa = PBXBuildFile; fileRef = E79068C944BB47EFAC830EFB /* /Users/thisura/Xcode/vst3sdk/base/source/updatehandler.h */; };
+		C2366F65BAE141A886F7F74A /* /Users/thisura/Xcode/vst3sdk/base/source/fstreamer.h */ = {isa = PBXBuildFile; fileRef = 98BBB981A5C14DB5A86598E4 /* /Users/thisura/Xcode/vst3sdk/base/source/fstreamer.h */; };
+		CE5B4BF4DDFB4A3DA0ED8940 /* /Users/thisura/Xcode/vst3sdk/base/source/fbuffer.h */ = {isa = PBXBuildFile; fileRef = A3115D8B0A9F4E6584E0E8CF /* /Users/thisura/Xcode/vst3sdk/base/source/fbuffer.h */; };
+		D32D527E7A1C4B4094AE38FB /* /Users/thisura/Xcode/vst3sdk/base/source/fstring.h */ = {isa = PBXBuildFile; fileRef = 66131A3F9CC54940928D6383 /* /Users/thisura/Xcode/vst3sdk/base/source/fstring.h */; };
+		D5DCF38949E2476DA882160D /* /Users/thisura/Xcode/vst3sdk/base/source/fcommandline.h */ = {isa = PBXBuildFile; fileRef = CF6AB1DB1CAE48988A320788 /* /Users/thisura/Xcode/vst3sdk/base/source/fcommandline.h */; };
+		D803EF0494E3473EAF0F9159 /* /Users/thisura/Xcode/vst3sdk/base/thread/include/fcondition.h */ = {isa = PBXBuildFile; fileRef = 3A032097F1514854B92CF60E /* /Users/thisura/Xcode/vst3sdk/base/thread/include/fcondition.h */; };
+		E4A6FB72EABB42F1A3A087B6 /* /Users/thisura/Xcode/vst3sdk/base/source/fbuffer.cpp */ = {isa = PBXBuildFile; fileRef = 429BACD645024DF78AEB23E7 /* /Users/thisura/Xcode/vst3sdk/base/source/fbuffer.cpp */; };
+		EE1A698DE26A44B5AE4AEF37 /* /Users/thisura/Xcode/vst3sdk/base/source/fdynlib.cpp */ = {isa = PBXBuildFile; fileRef = 4E29F949636B448A8E116EB1 /* /Users/thisura/Xcode/vst3sdk/base/source/fdynlib.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		13A34F232B0E4D92BAD51618 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		F56A6F03198E41369A4DF307 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1B0E82D4A856408983B210A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0D396873ADB4AA4A4F256E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B5FB17AEE254B5488E03E38;
+			remoteInfo = ZERO_CHECK;
+		};
+		718037E7F292487B81144EA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0D396873ADB4AA4A4F256E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6272B26618F4FDFAD81B339;
+			remoteInfo = base;
+		};
+		FF3368C6FA8B476894B07ADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0D396873ADB4AA4A4F256E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B5FB17AEE254B5488E03E38;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17CB9415C83548B287F9B6ED /* /Users/thisura/Xcode/vst3sdk/base/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		25632A4628804FA3957B5285 /* /Users/thisura/Xcode/vst3sdk/base/source/classfactoryhelpers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = classfactoryhelpers.h; path = source/classfactoryhelpers.h; sourceTree = SOURCE_ROOT; };
+		257BE9F1C1934582A48CEF03 /* /Users/thisura/Xcode/vst3sdk/base/source/fdebug.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fdebug.cpp; path = source/fdebug.cpp; sourceTree = SOURCE_ROOT; };
+		2699873BC7154DFE90B85A8E /* base */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libbase.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A032097F1514854B92CF60E /* /Users/thisura/Xcode/vst3sdk/base/thread/include/fcondition.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fcondition.h; path = thread/include/fcondition.h; sourceTree = SOURCE_ROOT; };
+		429BACD645024DF78AEB23E7 /* /Users/thisura/Xcode/vst3sdk/base/source/fbuffer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fbuffer.cpp; path = source/fbuffer.cpp; sourceTree = SOURCE_ROOT; };
+		460EF7C58A5144CD9712CF87 /* /Users/thisura/Xcode/vst3sdk/base/source/baseiids.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = baseiids.cpp; path = source/baseiids.cpp; sourceTree = SOURCE_ROOT; };
+		4E29F949636B448A8E116EB1 /* /Users/thisura/Xcode/vst3sdk/base/source/fdynlib.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fdynlib.cpp; path = source/fdynlib.cpp; sourceTree = SOURCE_ROOT; };
+		53BCA1B9EE9E4E70BA54997C /* /Users/thisura/Xcode/vst3sdk/base/source/timer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = timer.cpp; path = source/timer.cpp; sourceTree = SOURCE_ROOT; };
+		557EA664A47C4C12848F5217 /* /Users/thisura/Xcode/vst3sdk/base/thread/include/flock.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = flock.h; path = thread/include/flock.h; sourceTree = SOURCE_ROOT; };
+		66131A3F9CC54940928D6383 /* /Users/thisura/Xcode/vst3sdk/base/source/fstring.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fstring.h; path = source/fstring.h; sourceTree = SOURCE_ROOT; };
+		6791C79D00BC42079071F166 /* /Users/thisura/Xcode/vst3sdk/base/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		75ED1AE0B51E4FD784EB4B74 /* /Users/thisura/Xcode/vst3sdk/base/source/fdebug.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fdebug.h; path = source/fdebug.h; sourceTree = SOURCE_ROOT; };
+		7C1B7D8D3B7143B19B0C62B7 /* /Users/thisura/Xcode/vst3sdk/base/source/fcleanup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fcleanup.h; path = source/fcleanup.h; sourceTree = SOURCE_ROOT; };
+		87F17BCD85CA4819AA565B32 /* /Users/thisura/Xcode/vst3sdk/base/source/fobject.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fobject.cpp; path = source/fobject.cpp; sourceTree = SOURCE_ROOT; };
+		8B79D1CFBBA64144905069B1 /* /Users/thisura/Xcode/vst3sdk/base/source/fstreamer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fstreamer.cpp; path = source/fstreamer.cpp; sourceTree = SOURCE_ROOT; };
+		8C852C80CFA4446A8AD3742E /* /Users/thisura/Xcode/vst3sdk/base/thread/source/fcondition.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fcondition.cpp; path = thread/source/fcondition.cpp; sourceTree = SOURCE_ROOT; };
+		98BBB981A5C14DB5A86598E4 /* /Users/thisura/Xcode/vst3sdk/base/source/fstreamer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fstreamer.h; path = source/fstreamer.h; sourceTree = SOURCE_ROOT; };
+		A3115D8B0A9F4E6584E0E8CF /* /Users/thisura/Xcode/vst3sdk/base/source/fbuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fbuffer.h; path = source/fbuffer.h; sourceTree = SOURCE_ROOT; };
+		AC43CD3265664B3497A0A1B6 /* /Users/thisura/Xcode/vst3sdk/base/source/timer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = timer.h; path = source/timer.h; sourceTree = SOURCE_ROOT; };
+		AF235F47AF464169AFBBBB11 /* /Users/thisura/Xcode/vst3sdk/base/source/fobject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fobject.h; path = source/fobject.h; sourceTree = SOURCE_ROOT; };
+		B2CC72B8555D47F6910EF633 /* /Users/thisura/Xcode/vst3sdk/base/source/fdynlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fdynlib.h; path = source/fdynlib.h; sourceTree = SOURCE_ROOT; };
+		B6A9F33F622F4974A1A468CF /* /Users/thisura/Xcode/vst3sdk/base/source/updatehandler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = updatehandler.cpp; path = source/updatehandler.cpp; sourceTree = SOURCE_ROOT; };
+		C7CD1A32832A426DBBB382D8 /* /Users/thisura/Xcode/vst3sdk/base/source/fstring.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = fstring.cpp; path = source/fstring.cpp; sourceTree = SOURCE_ROOT; };
+		CF6AB1DB1CAE48988A320788 /* /Users/thisura/Xcode/vst3sdk/base/source/fcommandline.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fcommandline.h; path = source/fcommandline.h; sourceTree = SOURCE_ROOT; };
+		E4DDF5B4337143A890805320 /* /Users/thisura/Xcode/vst3sdk/base/thread/source/flock.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = flock.cpp; path = thread/source/flock.cpp; sourceTree = SOURCE_ROOT; };
+		E79068C944BB47EFAC830EFB /* /Users/thisura/Xcode/vst3sdk/base/source/updatehandler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = updatehandler.h; path = source/updatehandler.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D403EA904A04C89925A81CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		098738F8904041639DBAA86B /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				25632A4628804FA3957B5285 /* /Users/thisura/Xcode/vst3sdk/base/source/classfactoryhelpers.h */,
+				A3115D8B0A9F4E6584E0E8CF /* /Users/thisura/Xcode/vst3sdk/base/source/fbuffer.h */,
+				7C1B7D8D3B7143B19B0C62B7 /* /Users/thisura/Xcode/vst3sdk/base/source/fcleanup.h */,
+				CF6AB1DB1CAE48988A320788 /* /Users/thisura/Xcode/vst3sdk/base/source/fcommandline.h */,
+				75ED1AE0B51E4FD784EB4B74 /* /Users/thisura/Xcode/vst3sdk/base/source/fdebug.h */,
+				B2CC72B8555D47F6910EF633 /* /Users/thisura/Xcode/vst3sdk/base/source/fdynlib.h */,
+				AF235F47AF464169AFBBBB11 /* /Users/thisura/Xcode/vst3sdk/base/source/fobject.h */,
+				98BBB981A5C14DB5A86598E4 /* /Users/thisura/Xcode/vst3sdk/base/source/fstreamer.h */,
+				66131A3F9CC54940928D6383 /* /Users/thisura/Xcode/vst3sdk/base/source/fstring.h */,
+				AC43CD3265664B3497A0A1B6 /* /Users/thisura/Xcode/vst3sdk/base/source/timer.h */,
+				E79068C944BB47EFAC830EFB /* /Users/thisura/Xcode/vst3sdk/base/source/updatehandler.h */,
+				3A032097F1514854B92CF60E /* /Users/thisura/Xcode/vst3sdk/base/thread/include/fcondition.h */,
+				557EA664A47C4C12848F5217 /* /Users/thisura/Xcode/vst3sdk/base/thread/include/flock.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		414872ACAB8E4D6AAE10BF5B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		54C746BB71D74BAAAD888EC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2699873BC7154DFE90B85A8E /* base */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7944CEF1118242A4AC71F670 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B03D517BC1CE4902B9D5F34D /* base */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		85CB010BF33941BC8F9B3817 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB6B3209AB23494F9AA5CAB6 = {
+			isa = PBXGroup;
+			children = (
+				7944CEF1118242A4AC71F670 /* Libraries */,
+				F26C936C14DB46E0B1169EBE /* ALL_BUILD */,
+				54C746BB71D74BAAAD888EC0 /* Products */,
+				85CB010BF33941BC8F9B3817 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B03D517BC1CE4902B9D5F34D /* base */ = {
+			isa = PBXGroup;
+			children = (
+				F0303E18C895428F8BD4DF29 /* Source Files */,
+				098738F8904041639DBAA86B /* Header Files */,
+				17CB9415C83548B287F9B6ED /* /Users/thisura/Xcode/vst3sdk/base/CMakeLists.txt */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		F0303E18C895428F8BD4DF29 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				460EF7C58A5144CD9712CF87 /* /Users/thisura/Xcode/vst3sdk/base/source/baseiids.cpp */,
+				429BACD645024DF78AEB23E7 /* /Users/thisura/Xcode/vst3sdk/base/source/fbuffer.cpp */,
+				257BE9F1C1934582A48CEF03 /* /Users/thisura/Xcode/vst3sdk/base/source/fdebug.cpp */,
+				4E29F949636B448A8E116EB1 /* /Users/thisura/Xcode/vst3sdk/base/source/fdynlib.cpp */,
+				87F17BCD85CA4819AA565B32 /* /Users/thisura/Xcode/vst3sdk/base/source/fobject.cpp */,
+				8B79D1CFBBA64144905069B1 /* /Users/thisura/Xcode/vst3sdk/base/source/fstreamer.cpp */,
+				C7CD1A32832A426DBBB382D8 /* /Users/thisura/Xcode/vst3sdk/base/source/fstring.cpp */,
+				53BCA1B9EE9E4E70BA54997C /* /Users/thisura/Xcode/vst3sdk/base/source/timer.cpp */,
+				B6A9F33F622F4974A1A468CF /* /Users/thisura/Xcode/vst3sdk/base/source/updatehandler.cpp */,
+				8C852C80CFA4446A8AD3742E /* /Users/thisura/Xcode/vst3sdk/base/thread/source/fcondition.cpp */,
+				E4DDF5B4337143A890805320 /* /Users/thisura/Xcode/vst3sdk/base/thread/source/flock.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F26C936C14DB46E0B1169EBE /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				414872ACAB8E4D6AAE10BF5B /* CMake Rules */,
+				6791C79D00BC42079071F166 /* /Users/thisura/Xcode/vst3sdk/base/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6272B26618F4FDFAD81B339 /* base */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5E62C393E574F9F86DA2C94 /* Build configuration list for PBXNativeTarget "base" */;
+			buildPhases = (
+				7F033CC7918A40119E245612 /* Sources */,
+				7D403EA904A04C89925A81CF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				980C0F253941461EAF4DABE5 /* PBXTargetDependency */,
+			);
+			name = base;
+			productName = base;
+			productReference = 2699873BC7154DFE90B85A8E /* base */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0D396873ADB4AA4A4F256E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = 001085A899D54AF2975BCF9C /* Build configuration list for PBXProject "smtg_base" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				13A34F232B0E4D92BAD51618 /* Debug */,
+				F56A6F03198E41369A4DF307 /* Release */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = AB6B3209AB23494F9AA5CAB6;
+			projectDirPath = /Users/thisura/Xcode/vst3sdk/base;
+			projectRoot = "";
+			targets = (
+				1E6B0A49DDA14EB0A6A4B355 /* ALL_BUILD */,
+				4B5FB17AEE254B5488E03E38 /* ZERO_CHECK */,
+				D6272B26618F4FDFAD81B339 /* base */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		391C88FA830D5733878452AB /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/thisura/Developer/Practice/xcode/Musynth/build/vst3sdk/base/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/thisura/Developer/Practice/xcode/Musynth/build/vst3sdk/base
+  make -f /Users/thisura/Developer/Practice/xcode/Musynth/build/vst3sdk/base/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/thisura/Developer/Practice/xcode/Musynth/build/vst3sdk/base
+  make -f /Users/thisura/Developer/Practice/xcode/Musynth/build/vst3sdk/base/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5555313491AB676125ECB9FC /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/thisura/Developer/Practice/xcode/Musynth/build/vst3sdk/base/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/thisura/Developer/Practice/xcode/Musynth/build/vst3sdk/base
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/thisura/Developer/Practice/xcode/Musynth/build/vst3sdk/base
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F033CC7918A40119E245612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86FD0BFDC33C483B9840BEF8 /* /Users/thisura/Xcode/vst3sdk/base/source/baseiids.cpp */,
+				E4A6FB72EABB42F1A3A087B6 /* /Users/thisura/Xcode/vst3sdk/base/source/fbuffer.cpp */,
+				3462FE2DEE364037BC7B05ED /* /Users/thisura/Xcode/vst3sdk/base/source/fdebug.cpp */,
+				EE1A698DE26A44B5AE4AEF37 /* /Users/thisura/Xcode/vst3sdk/base/source/fdynlib.cpp */,
+				697D8CCDE4304DB094B474EC /* /Users/thisura/Xcode/vst3sdk/base/source/fobject.cpp */,
+				983E66EDE6FC4A51B379D025 /* /Users/thisura/Xcode/vst3sdk/base/source/fstreamer.cpp */,
+				8C5774A462B346A8AED5AD54 /* /Users/thisura/Xcode/vst3sdk/base/source/fstring.cpp */,
+				79BABE1D291B45CB98DE8326 /* /Users/thisura/Xcode/vst3sdk/base/source/timer.cpp */,
+				159CDE2C263140F8A0C14E4A /* /Users/thisura/Xcode/vst3sdk/base/source/updatehandler.cpp */,
+				1B6BC3FFA225420AB060D07F /* /Users/thisura/Xcode/vst3sdk/base/thread/source/fcondition.cpp */,
+				32B646BE4E19433CADA1020B /* /Users/thisura/Xcode/vst3sdk/base/thread/source/flock.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D2D24E6EA4C453DBE1775E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B5FB17AEE254B5488E03E38 /* ZERO_CHECK */;
+			targetProxy = FF3368C6FA8B476894B07ADD /* PBXContainerItemProxy */;
+		};
+		980C0F253941461EAF4DABE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B5FB17AEE254B5488E03E38 /* ZERO_CHECK */;
+			targetProxy = 1B0E82D4A856408983B210A8 /* PBXContainerItemProxy */;
+		};
+		D7D644C594A34ADCBE9A1C4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6272B26618F4FDFAD81B339 /* base */;
+			targetProxy = 718037E7F292487B81144EA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		195EF0C3116D496CA601F1FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/thisura/Developer/Practice/xcode/Musynth/build/vst3sdk/base;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		746A827E137047769BBB958E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/thisura/Developer/Practice/xcode/Musynth/build/vst3sdk/base;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8948E93B779D47268CBADFF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/thisura/Developer/Practice/xcode/Musynth/build/vst3sdk/base;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8EB6A930D70E44928877C588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/thisura/Developer/Practice/xcode/Musynth/build/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/thisura/Xcode/vst3sdk,/Users/thisura/Xcode/vst3sdk/base/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DRELEASE=1' '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = base;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/thisura/Developer/Practice/xcode/Musynth/build/vst3sdk/base;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		94BCA86FCA194A5A880327C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = /Users/thisura/Developer/Practice/xcode/Musynth/build/vst3sdk/base/build;
+			};
+			name = Debug;
+		};
+		9CD2FB0422F94257A58C548B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/thisura/Developer/Practice/xcode/Musynth/build/vst3sdk/base;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9E6DAA8C6974406D8258A20A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = /Users/thisura/Developer/Practice/xcode/Musynth/build/vst3sdk/base/build;
+			};
+			name = Release;
+		};
+		CACBCF4A07E944AE9979C8B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/thisura/Developer/Practice/xcode/Musynth/build/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/thisura/Xcode/vst3sdk,/Users/thisura/Xcode/vst3sdk/base/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OSX_ARCHITECTURES = "x86_64;arm64;arm64e";
+				OTHER_CPLUSPLUSFLAGS = "   '-DSMTG_RENAME_ASSERT=1' -Winconsistent-missing-override '-Werror=return-type' -ffast-math '-ffp-contract=fast' '-DDEVELOPMENT=1' '-std=gnu++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = base;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/thisura/Developer/Practice/xcode/Musynth/build/vst3sdk/base;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		001085A899D54AF2975BCF9C /* Build configuration list for PBXProject "smtg_base" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94BCA86FCA194A5A880327C7 /* Debug */,
+				9E6DAA8C6974406D8258A20A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A5E62C393E574F9F86DA2C94 /* Build configuration list for PBXNativeTarget "base" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACBCF4A07E944AE9979C8B3 /* Debug */,
+				8EB6A930D70E44928877C588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E10C1FC69BA14C7F991BE818 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746A827E137047769BBB958E /* Debug */,
+				195EF0C3116D496CA601F1FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F4D4DE17863A47BEA487B695 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CD2FB0422F94257A58C548B /* Debug */,
+				8948E93B779D47268CBADFF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0D396873ADB4AA4A4F256E2 /* Project object */;
+}
